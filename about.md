@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Now
+permalink: /now/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Learning about blockchains and what makes them secure (and what doesn't). Reconciling the mundane with the sweet.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[0xalpharush@protonmail.com](0xalpharush@protonmail.com)
