@@ -8,7 +8,7 @@ Using a slither tool to unlock a contract with a hidden key.
 
 ### A Coincidence of Wants
 
-As I worked through the Ethernaut challenges, I started familiarizing myself with Trail of Bits' static analyzer [Slither](https://github.com/crytic/slither/). An [issue]((https://github.com/crytic/slither/issues/793)) on the Github repo gave me the idea to build a tool that reads storage from deployed smart contracts without needing to know the storage slot beforehand. This tool is a WIP.
+As I worked through the Ethernaut challenges, I started familiarizing myself with Trail of Bits' static analyzer [Slither](https://github.com/crytic/slither/). An [issue](https://github.com/crytic/slither/issues/793) on the Github repo gave me the idea to build a tool that reads storage from deployed smart contracts without needing to know the storage slot beforehand. This tool is a WIP.
 
 `slither-read-storage` makes it quick and easy to find the storage slot and value of a variable. It works by using Slither's underlying compilation engine [Crytic-compile](https://github.com/crytic/crytic-compile) to determine the storage layout of a given contract. Then, it's trivial to retrieve the value by calling `web3.getStorageAt([address], [slot])` under the hood.
 
