@@ -4,11 +4,15 @@ title: Now
 permalink: /now/
 ---
 
-Learning about blockchains and what makes them secure (and what doesn't). Reconciling the mundane with the sweet.
+I work on the blockchain security team at Trail of Bits. 
 
-Interests (not expertise):
-- program analysis, primarily static analysis 
-- MEV
+Recently, I've been focused on unsafe Rust and structure-aware fuzzing.
+
+Interests:
+- program langauges
+- compilers
+- static analysis
+- fuzzing 
 
 ### Contact me
 
