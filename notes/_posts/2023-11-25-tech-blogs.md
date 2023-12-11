@@ -7,3 +7,4 @@ A list of [technical blogs](https://lists.eatonphil.com/blogs.html) by Phil Eato
 I would add:
 - [Matklad's blog](https://matklad.github.io/)
 - [Philip Zucker's blog](https://www.philipzucker.com/)
+- [Austin Henley's blog](https://austinhenley.com/blog.html)
