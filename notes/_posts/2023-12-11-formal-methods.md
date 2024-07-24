@@ -1,6 +1,6 @@
 ---
 layout: note
-title: Verification Conditions
+title: Formal Methods
 ---
 
 # Glossary
@@ -19,6 +19,8 @@ title: Verification Conditions
 
 [Viper](https://viper.ethz.ch/)
 
+[Fair stateless model checking](https://dl.acm.org/doi/abs/10.1145/1375581.1375625)
+
 https://muraliadithya.github.io/publications.html
 
 # Lectures
@@ -28,3 +30,11 @@ https://muraliadithya.github.io/publications.html
 - [Building a First Verifier](https://ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Courses/SS2023/PV/slides/03-building-a-first-verifier.pdf)
 
 
+# Blogs
+[Why Writing Correct Software Is Hard](https://pron.github.io/posts/correctness-and-complexity/)
+
+[Some notes on Rust, mutable aliasing and formal verification](https://graydon2.dreamwidth.org/312681.html)
+
+[From Stacks to Trees: A new aliasing model for Rust](https://www.ralfj.de/blog/2023/06/02/tree-borrows.html)
+
+[Forge: A tool to teach formal methods](https://blog.brownplt.org/2024/04/21/forge.html)
