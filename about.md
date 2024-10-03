@@ -4,7 +4,7 @@ title: Now
 permalink: /now/
 ---
 
-I work on the blockchain security team at Trail of Bits. 
+I am a security engineer at [Asymmetric Research](https://www.asymmetric.re/). 
 
 Recently, I've been focused on stateful fuzzing and learning about databases.
 
