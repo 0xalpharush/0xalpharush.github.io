@@ -2,12 +2,19 @@
 layout: default
 ---
 <h1>Talks</h1>
-<ul class="talks">
-  <li>
-    <a href="{{ site.baseurl }}/talks/fuzzing-solana-runtimes.pdf">Fuzzing Solana Runtimes</a>
-    — <a href="https://seceureka.com/w3st/">W3ST @ Cannes</a>, Mar. 31, 2026
-  </li>
-</ul>
+<div class="posts">
+  <article class="post">
+
+    <h2><a href="{{ site.baseurl }}/talks/fuzzing-solana-runtimes.pdf">Fuzzing Solana Runtimes</a></h2>
+    <div class="date"><a href="https://seceureka.com/w3st/">W3ST @ Cannes</a> · Mar 31, 2026</div>
+
+    <div class="entry">
+      <p>Finding logic bugs, regressions, and divergences across Solana runtime implementations like Agave and Firedancer.</p>
+    </div>
+
+    <a href="{{ site.baseurl }}/talks/fuzzing-solana-runtimes.pdf" class="read-more">Slides</a>
+  </article>
+</div>
 
 <h1>Posts</h1>
 <div class="posts">
@@ -15,6 +22,7 @@ layout: default
     <article class="post">
 
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
 
       <div class="entry">
         {{ post.excerpt }}
